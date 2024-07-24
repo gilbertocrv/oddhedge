@@ -1,2 +1,24 @@
-# oddhedge
-Este repositório contém uma aplicação Python para calcular apostas de hedge em exchanges esportivas. A aplicação permite que você determine a odd necessária para a aposta de lay a fim de garantir um lucro específico, considerando uma aposta inicial de back.
+# Calculadora de Odd de Lay
+
+Este projeto é uma aplicação simples em Python para calcular a odd de lay necessária para garantir um lucro desejado ao fazer uma aposta de back. A aplicação solicita ao usuário os valores de aposta de back, a odd de back, e o lucro desejado, e calcula a odd de lay correspondente.
+
+## Funcionalidades
+
+- Entrada de valores para aposta de back, odd de back e lucro desejado.
+- Cálculo da odd de lay necessária para garantir o lucro desejado.
+- Exibição do resultado e pausa até o usuário pressionar Enter.
+
+## Requisitos
+
+- Python 3.6 ou superior
+- Biblioteca `PyInstaller` para criar o executável
+
+## Como Usar
+
+### 1. Clonar o Repositório
+
+Clone este repositório em sua máquina local:
+
+```bash
+git clone https://github.com/gilbertocrv/oddhedge.git
+cd oddhedge
